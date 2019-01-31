@@ -1,0 +1,9 @@
+OpenCPI Project Containing Xilinx 2018.2 Software Platform
+
+This project contains the OpenCPI Software Platform to support cross-compilation
+of OpenCPI and its workers for use with Xilinx's 2018.2 distribution of Linux.
+
+See branch release_1.4_zynq_ultra of https://github.com/Geontech/bsp_zcu1xx for
+use cases of this SW platform on Xilinx's ZCU102 and ZCU111 Evaluation Boards.
+The ZCU102/ZCU111 Getting Started Guides in that repository provide instructions
+for setting up an SD card for use with this SW platform.
