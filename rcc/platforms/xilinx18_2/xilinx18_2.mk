@@ -17,13 +17,13 @@
 # with this program. If not, see <http://www.gnu.org/licenses/>.
 
 ##########################################################################################
-# This file defines the xilinx13_3 software platform.
+# This file defines the xilinx18_2 software platform.
 # It sets platform variables as necessary to override the defaults in the file:
 #   include/platform-defaults.mk file.
 # See that file for a description of valid variables and their defaults.
 
 include $(OCPI_CDK_DIR)/include/hdl/xilinx.mk
-# Here we require Vivado SDK version 2013.4 for platform xilinx13_3
+# Here we require Vivado SDK version 2018.2 for platform xilinx18_2
 OCPI_XILINX_VIVADO_SDK_VERSION:=2018.2
 tooldir:=$(OcpiXilinxEdkDir)/gnu/aarch64/lin/aarch64-linux/bin
 ifeq ($(wildcard $(tooldir)),)
